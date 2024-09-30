@@ -1,11 +1,23 @@
 #include <iostream>
+
 using namespace std;
 
 int main() {
-    string nome;
-    cout << "Inserisci il tuo nome: ";
-    cin >> nome;
-    cout << "Ciao " <<nome<< "!" << endl;
+  float a, b, max;
+  
+  cout << " inserisci 2 numeri " << endl;
+  cin >> a;
+  cin >> b;
+  if (a > b) 
+  {
+    
+      max = a;
+    } 
+    else 
+    {
+     max=b
+    }
+  }
+  
+  cout << " il numero maggiore fra i due numeri è " <<max<< endl;
 }
-
-//LEGGERE LE ISTRUZIONI NEL FILE README.md
